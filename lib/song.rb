@@ -52,7 +52,9 @@ class Song
     artist = artist_title[0]
     title = artist_title[1].chomp(".mp3")
     new_song = Song.new
-    
+    new_song.artist_name = artist
+    new_song.title = title
+    new_song
 
   end
 
